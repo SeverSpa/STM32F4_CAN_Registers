@@ -2,6 +2,7 @@
 
 Two STM32F4 Discovery boards communicating by CAN interface. Each board increment an own variable (as an example) and
 sends it by CAN to the other board, which displays its 4 lower bits on user leds. 
+Here, we used registers programming for the frequently called instructions, as the API functions may change (as it happened in December 2017). 
 
 2. How to use:
 
